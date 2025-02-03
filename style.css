@@ -1,0 +1,39 @@
+/* Custom Styles */
+body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .hero-section {
+    padding: 100px 0;
+    background-color: #f8f9fa;
+  }
+  
+  .hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .hero-section p {
+    font-size: 1.25rem;
+    color: #666;
+  }
+  
+  .card {
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 10px;
+  }
+  
+  footer {
+    background-color: #343a40;
+    color: #fff;
+  }
